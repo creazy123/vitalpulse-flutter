@@ -1,0 +1,40 @@
+name: vitalpulse_app
+description: VitalPulse AI - Demo Skeleton
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # 状态
+  flutter_riverpod: ^2.5.1
+
+  # 路由
+  go_router: ^14.2.0
+
+  # 网络
+  dio: ^5.4.3+1
+  pretty_dio_logger: ^1.4.0
+
+  # 存储
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.2.3
+
+  # 工具
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  logger: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
